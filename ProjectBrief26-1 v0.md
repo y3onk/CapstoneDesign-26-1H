@@ -10,7 +10,7 @@
 |06|[브라우니](#team-06)| CLIP-RD : Relative Distillation for Efficient CLIP Knowledge Distillation
 |07|[我](#team-07)| 퍼스널 브랜딩이 어려운 20대 여성 초보 크리에이터를 위한 생성형 AI 기반 SNS 페르소나 진단 및 업로드용 이미지 컨텐츠 생성 웹 서비스
 |08|[SEAquence](#team-08)| Talkativ; 다국적 사용자의 한국어 의사소통을 돕는 AI 기반 맥락 인식 아바타 대화 시뮬레이션 및 코칭 시스템
-|09|[SiYa](#team-09)| 멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구
+|09|[SiYa](#team-09)| Multimodal Integration of Spatial Transcriptomics and Whole Slide Images for Tumor Prediction
 |10|[JL](#team-10)| 탐조 입문자를 위해 새 이미지를 받아 종을 알려주고, 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공 앱서비스
 |11|[crossAlpha](#team-11)| 시간과 전문성이 부족한 개인 주식 투자자를 위한, 최신 경제 동향이 내 포트폴리오에 미치는 리스크와 인사이트를 제공하는 투자 의사결정 보조 도구
 |12|[HABITS](#team-12)| 어떤 습관과 습관 형성 방식이 나에게 맞는지 확신이 없는 젊은 층을 위한, 성격 분석 기반 맞춤 습관 추천과 감정 분석-습관 이행률간 AI 교차 분석을 통해 개인화 피드백으로 원하는 성격 특성을 지속적으로 강화해나가는 습관 코칭 서비스
@@ -167,15 +167,15 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-09
-| (1) 과제명 |  멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구 |
+| (1) 과제명 |  Multimodal Integration of Spatial Transcriptomics and Whole Slide Images for Tumor Prediction |
 |:---  |---  |
 | (2) 팀 번호/이름 | 09-SiYa |
-| (3) 구성원 | 박은서(2303050): 리더,*역할,...* <br> 류다현(2376087): 팀원,*역할,....* <br> 유지혜(2271040): 팀원,*역할,....* |
+| (3) 구성원 | **박은서(2303050):** 리더, 외부 데이터셋(STImage) 전처리 파이프라인 구축(STImage 데이터 수집 및 Raw Data 정제, HEST 데이터셋 포맷과 호환성을 위해 구조 표준화), 프로젝트 성과 발표 <br><br> **류다현(2376087):** 팀원, 외부 데이터셋(HEST) 전처리 파이프라인 구축(HEST 데이터 수집 및 Raw Data 정제, 데이터 로딩을 위한 초기 로더 구현, 베이스라인 모델 파일 구조 설계) <br><br> **유지혜(2271040):** 팀원, 초기 기술 타당성 검증(전체 구조도 기반 핵심 학습 파이프라인 개발, 초기 프로토타입 코드 작성), 기술 장표 제작 |
 | (4) 지도교수 | 황의원 교수 |
 | (5) 트랙  | 연구 |
-| (6) 과제 키워드 | Computer Vision, Multimodal, Medical AI |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (6) 과제 키워드 | Computer Vision, Multimodal, Medical AI, Explainability, XAI |
+| (7) 과제 내용 요약 | 본 연구는 **spatial transcriptomics(ST)**와 **whole slide image(WSI)**를 결합한 멀티모달 학습을 통해 종양 예측 성능을 향상시키고, 각 모달리티 간 상호작용을 분석하는 것을 목표로 한다. 기존 병리 AI 연구는 주로 단일 모달리티 정보에 의존하거나, 멀티모달을 활용하더라도 단순 성능 향상에 집중하여 모달리티 간 상호작용 및 설명 가능성에 대한 분석이 부족하다는 한계를 지닌다. <br><br> 이를 해결하기 위해, 본 연구에서는 ST와 WSI를 동시에 입력으로 사용하는 종양 예측 task를 설정하고, 2가지 encoder 구성(ealy-fusion, late-fusion)과 4가지 fusion 구조(attention, concatenation, gating, similarity 기반)를 비교 분석한다. 각 구조는 서로 다른 방식으로 두 모달리티 간의 상호작용을 모델링하며, 이를 통해 어떤 결합 방식이 성능 향상에 효과적인지를 평가한다.<br><br> 또한 ST의 spatial coordinate 정보를 활용하여, 모델이 예측에 활용한 영역과 유전자를 시각화함으로써 설명 가능성을 확보하며, 이를 통해 기존 WSI 기반 모델 대비 공간적 정보와 유전자 발현 정보를 함께 고려한 해석이 가능함을 보인다.
+| (8) 주요 Link |  https://github.com/EWHA-CAPSTONE-VISION/team_project_repo |
  
 <br>
  
